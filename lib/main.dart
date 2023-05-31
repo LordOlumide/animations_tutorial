@@ -1,5 +1,6 @@
-import 'package:animations_tutorial/app/screens/ex1_anim_builder_and_transform.dart';
 import 'package:flutter/material.dart';
+
+import 'app/screens/ex2_chained_anims_curves_and_clippers.dart';
 
 void main() {
   runApp(const MyApp());
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Animations tutorial',
-      home: Example1(),
+      home: Example2(),
     );
   }
 }

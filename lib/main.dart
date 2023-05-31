@@ -1,4 +1,4 @@
-import 'package:animations_tutorial/app/screens/home_screen.dart';
+import 'package:animations_tutorial/app/screens/ex1_anim_builder_and_transform.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -12,7 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       title: 'Animations tutorial',
-      home: HomeScreen(),
+      home: Example1(),
     );
   }
 }

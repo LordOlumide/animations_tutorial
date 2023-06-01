@@ -1,4 +1,4 @@
-import 'package:animations_tutorial/app/screens/ex5_implicit_anims.dart';
+import 'package:animations_tutorial/app/screens/ex6_tween_anim_builder_and_clips.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(brightness: Brightness.dark),
       title: 'Animations tutorial',
-      home: const Example5(),
+      home: const Example6(),
     );
   }
 }

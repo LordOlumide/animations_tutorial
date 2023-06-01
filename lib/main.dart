@@ -1,4 +1,4 @@
-import 'package:animations_tutorial/app/screens/ex3_3d_stack_and_rotate.dart';
+import 'package:animations_tutorial/app/screens/ex4_hero_anim.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(brightness: Brightness.dark),
       title: 'Animations tutorial',
-      home: const Example3(),
+      home: const Example4(),
     );
   }
 }

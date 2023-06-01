@@ -1,6 +1,5 @@
+import 'package:animations_tutorial/app/screens/ex3_3d_stack_and_rotate.dart';
 import 'package:flutter/material.dart';
-
-import 'app/screens/ex2_chained_anims_curves_and_clippers.dart';
 
 void main() {
   runApp(const MyApp());
@@ -11,9 +10,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
+      theme: ThemeData(brightness: Brightness.dark),
       title: 'Animations tutorial',
-      home: Example2(),
+      home: const Example3(),
     );
   }
 }

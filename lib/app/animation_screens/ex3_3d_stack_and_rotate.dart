@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:vector_math/vector_math_64.dart' show Vector3;
 
 class Example3 extends StatefulWidget {
+  static const screenId = 'Example 3';
   const Example3({Key? key}) : super(key: key);
 
   @override

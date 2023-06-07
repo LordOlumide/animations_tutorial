@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 class Example9 extends StatelessWidget {
+  static const screenId = 'Example 9';
   const Example9({Key? key}) : super(key: key);
 
   @override

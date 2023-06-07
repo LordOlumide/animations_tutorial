@@ -7,6 +7,7 @@ getRandomColor() => Color(
     );
 
 class Example6 extends StatefulWidget {
+  static const screenId = 'Example 6';
   const Example6({Key? key}) : super(key: key);
 
   @override

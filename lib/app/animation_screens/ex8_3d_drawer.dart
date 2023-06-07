@@ -3,6 +3,7 @@ import 'dart:math' show pi;
 import 'package:flutter/material.dart';
 
 class Example8 extends StatelessWidget {
+  static const screenId = 'Example 8';
   const Example8({Key? key}) : super(key: key);
 
   @override

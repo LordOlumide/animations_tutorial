@@ -1,4 +1,4 @@
-import 'package:animations_tutorial/app/screens/ex9_animated_prompt.dart';
+import 'package:animations_tutorial/app/intro_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       theme: ThemeData(brightness: Brightness.dark),
       title: 'Animations tutorial',
-      home: const Example9(),
+      home: IntroScreen(),
     );
   }
 }

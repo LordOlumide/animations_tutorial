@@ -20,6 +20,7 @@ class Person {
 }
 
 class Example4 extends StatelessWidget {
+  static const screenId = 'Example 4';
   const Example4({Key? key}) : super(key: key);
 
   @override
